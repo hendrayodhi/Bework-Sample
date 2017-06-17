@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.home.HomeActivity">
+
+    <TextView
+        android:id="@+id/tTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="tTitle"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="tMessage"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="tNote"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tNote"
+        android:layout_marginTop="20dp"
+        android:background="#cccccc"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSampleLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#f1f1f1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Sample Log"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnSampleList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#f1f1f1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Sample List"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnSampleSharedPreference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#f1f1f1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Sample Shared Preference"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</RelativeLayout>

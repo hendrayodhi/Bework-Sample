@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".view.activity.home.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Input" />
+
+    <EditText
+        android:id="@+id/eInputKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="#f9f9f9"
+        android:hint="Key"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/eeInputValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="#f9f9f9"
+        android:hint="Value"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#f1f1f1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Save"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Read" />
+
+    <EditText
+        android:id="@+id/eReadKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="#f9f9f9"
+        android:hint="Key"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Show"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Output"
+        android:textStyle="bold" />
+</LinearLayout>

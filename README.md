@@ -12,6 +12,9 @@
 - Inject View ID
 - Inject Parcelable
 - Default Activity animation transition
+- Sample Fragment (Comming soon)
+- Sample HttpClient (Comming soon)
+
 
 ### Dependencies used by This Sample
 | Name | Type |

@@ -1,26 +1,22 @@
-# Bework
+# Bework-Sample
 > Make you easy to create android application.
 > Clean code & Structure on your project.
 
 # Feature
-- Base Application
-- Base Activity
-- Base Fragment
-- Base View
-- Base Worker
-- Log Utils
-- Inject View
-- Inject Font-Style
-- Base Parcelable
-- Etc...
- 
-### Dependencies used by Berok
+- Sample Activity
+- Redirect
+- RecyclerView
+- Secure SharedPreference
+- Log Utils 
+- Inject FontStyle
+- Inject View ID
+- Inject Parcelable
+- Default Activity animation transition
+
+### Dependencies used by This Sample
 | Name | Type |
 | ------ | ------ |
-|com.android.support:design:25.+ | Dependencies
-|com.android.support:appcompat-v7:25.+| Dependencies
-|com.android.support:recyclerview-v7:25.+ | Dependencies
-|jose4j-0.4.3.jar|files->libs
+|compile com.github.opannapo:Bework:Beta-1.0 | Dependencies 
 
 
 

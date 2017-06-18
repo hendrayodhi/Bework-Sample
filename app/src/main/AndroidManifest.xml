@@ -19,6 +19,7 @@
         <activity android:name=".view.activity.log.LogActivity" />
         <activity android:name=".view.activity.list.TrendingActivity" />
         <activity android:name=".view.activity.sharedpreference.SharedPreferenceActivity" />
+        <activity android:name=".view.activity.tab.TabActivity" />
 
 
     </application>
